@@ -34,6 +34,8 @@ public class Principal {
 	Cliente  clienteA = new Cliente ("Vitor", 111);
 	clienteA.conta = new Contas();
 	clienteA.conta.numero = 34930;
+	
+	Funcionarios func = new Funcionarios("vitao");
 
 	}
 

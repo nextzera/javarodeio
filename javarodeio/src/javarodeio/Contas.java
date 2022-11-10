@@ -24,8 +24,8 @@ public class Contas {
 		void setDeposita(double deposita) {
 			this.saldo += deposita;
 		}
-		
-		public void setNumeroAleatorio() {
+	
+			public Contas () {
 			this.numero = valorAleatorio;
 			valorAleatorio++;
 			
