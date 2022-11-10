@@ -1,10 +1,20 @@
 package javarodeio;
 
 public class Cliente {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		
+		String nome; 
+		int numeroCPF;
+		
+		Contas conta;
+		
+		//Construtor
+		
+		public Cliente(String nome, int number) { //Ao criar o new devemos informar
+			this.nome = nome;               
+			this.numeroCPF = number;
+		}
 
 	}
 
-}
+
